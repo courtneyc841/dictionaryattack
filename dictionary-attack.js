@@ -15,5 +15,10 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-
+  var x = document.getElementById("pw").value
+  for (i = 0; i < password; i++) {
+    text+= list[i] + "<br>";
+    document.getElementById("demo").innerHTML = x;
+  
+  
 }
