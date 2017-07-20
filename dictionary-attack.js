@@ -15,10 +15,11 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-  var x = document.getElementById("pw").value
-  for (i = 0; i < password; i++) {
-    text+= list[i] + "<br>";
-    document.getElementById("demo").innerHTML = x;
-  
+  var txt;
+  var pw = prompt("Please enter a password:");
+  if (pw == null || pw == " "
+      txt = "That's not a valid password!"
+  else {
+      txt = "Your password is " + pw + " !!"
   
 }
